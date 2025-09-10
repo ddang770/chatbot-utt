@@ -22,8 +22,6 @@ services:
       - ./.env
     ports:
       - "8000:8000"
-    volumes:
-      - ./backend:/app
 
   frontend:
     build:
